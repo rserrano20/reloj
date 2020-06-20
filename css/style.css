@@ -1,0 +1,81 @@
+
+
+.fecha{ 
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+
+}
+.hora{ 
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 3em;
+    color: white;
+    letter-spacing: 0.15em;
+
+}
+body{
+    background:black;
+}
+
+.pink {
+    text-shadow: 
+        0 0 5px #FF7BAC,
+        0 0 10px #FF7BAC,
+        0 0 20px #FF7BAC,
+        0 0 40px #FF7BAC,
+        0 0 80px #FF7BAC,
+        0 0 90px #FF7BAC,
+        0 0 100px #FF7BAC,
+        0 0 150px #FF7BAC;
+}
+.blue {
+    text-shadow: 
+        0 0 5px #7BACFF,
+        0 0 10px #7BACFF,
+        0 0 20px #7BACFF,
+        0 0 40px #7BACFF,
+        0 0 80px #7BACFF,
+        0 0 90px #7BACFF,
+        0 0 100px #7BACFF,
+        0 0 150px #7BACFF;
+}
+.green {
+    text-shadow: 
+        0 0 5px #7BFFCE,
+        0 0 10px #7BFFCE,
+        0 0 20px #7BFFCE,
+        0 0 40px #7BFFCE,
+        0 0 80px #7BFFCE,
+        0 0 90px #7BFFCE,
+        0 0 100px #7BFFCE,
+        0 0 150px #7BFFCE;
+}
+@media(max-width: 1025px){
+    .container{
+        margin-top: 40% !important;
+    }
+    .fecha{
+        font-size: 1cm;
+    }
+    .hora{
+        font-size: 3,5cm;
+    }
+}
+@media(max-width: 1020px){
+    .fecha{
+        font-size: 1.5cm;
+    }
+    .hora{
+        font-size: 2cm;
+    }
+}
+@media(max-width: 700px){
+   
+    .fecha{
+        font-size: 0.4cm;
+    }
+    .hora{
+        font-size: 0.6cm;
+    }
+}
